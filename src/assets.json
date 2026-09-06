@@ -1,0 +1,562 @@
+{
+  "event-01": {
+    "width": 1440,
+    "height": 960,
+    "smallWidth": 800,
+    "src": "/assets/photos/event-01.webp",
+    "small": "/assets/photos/event-01-small.webp"
+  },
+  "event-02": {
+    "width": 1080,
+    "height": 1080,
+    "smallWidth": 800,
+    "src": "/assets/photos/event-02.webp",
+    "small": "/assets/photos/event-02-small.webp"
+  },
+  "event-03": {
+    "width": 1080,
+    "height": 1080,
+    "smallWidth": 800,
+    "src": "/assets/photos/event-03.webp",
+    "small": "/assets/photos/event-03-small.webp"
+  },
+  "event-04": {
+    "width": 1080,
+    "height": 1080,
+    "smallWidth": 800,
+    "src": "/assets/photos/event-04.webp",
+    "small": "/assets/photos/event-04-small.webp"
+  },
+  "event-05": {
+    "width": 1080,
+    "height": 1080,
+    "smallWidth": 800,
+    "src": "/assets/photos/event-05.webp",
+    "small": "/assets/photos/event-05-small.webp"
+  },
+  "event-06": {
+    "width": 1080,
+    "height": 1080,
+    "smallWidth": 800,
+    "src": "/assets/photos/event-06.webp",
+    "small": "/assets/photos/event-06-small.webp"
+  },
+  "event-07": {
+    "width": 1080,
+    "height": 1080,
+    "smallWidth": 800,
+    "src": "/assets/photos/event-07.webp",
+    "small": "/assets/photos/event-07-small.webp"
+  },
+  "kids-01": {
+    "width": 1440,
+    "height": 1440,
+    "smallWidth": 800,
+    "src": "/assets/photos/kids-01.webp",
+    "small": "/assets/photos/kids-01-small.webp"
+  },
+  "kids-02": {
+    "width": 912,
+    "height": 1616,
+    "smallWidth": 564,
+    "src": "/assets/photos/kids-02.webp",
+    "small": "/assets/photos/kids-02-small.webp"
+  },
+  "kids-03": {
+    "width": 1440,
+    "height": 1919,
+    "smallWidth": 750,
+    "src": "/assets/photos/kids-03.webp",
+    "small": "/assets/photos/kids-03-small.webp"
+  },
+  "lovestory-01": {
+    "width": 640,
+    "height": 1136,
+    "smallWidth": 563,
+    "src": "/assets/photos/lovestory-01.webp",
+    "small": "/assets/photos/lovestory-01-small.webp"
+  },
+  "lovestory-02": {
+    "width": 640,
+    "height": 1136,
+    "smallWidth": 563,
+    "src": "/assets/photos/lovestory-02.webp",
+    "small": "/assets/photos/lovestory-02-small.webp"
+  },
+  "lovestory-03": {
+    "width": 640,
+    "height": 1136,
+    "smallWidth": 563,
+    "src": "/assets/photos/lovestory-03.webp",
+    "small": "/assets/photos/lovestory-03-small.webp"
+  },
+  "lovestory-04": {
+    "width": 1056,
+    "height": 704,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-04.webp",
+    "small": "/assets/photos/lovestory-04-small.webp"
+  },
+  "lovestory-05": {
+    "width": 1440,
+    "height": 960,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-05.webp",
+    "small": "/assets/photos/lovestory-05-small.webp"
+  },
+  "lovestory-06": {
+    "width": 1440,
+    "height": 960,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-06.webp",
+    "small": "/assets/photos/lovestory-06-small.webp"
+  },
+  "lovestory-07": {
+    "width": 1440,
+    "height": 960,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-07.webp",
+    "small": "/assets/photos/lovestory-07-small.webp"
+  },
+  "lovestory-08": {
+    "width": 1440,
+    "height": 1800,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-08.webp",
+    "small": "/assets/photos/lovestory-08-small.webp"
+  },
+  "lovestory-09": {
+    "width": 2000,
+    "height": 1333,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-09.webp",
+    "small": "/assets/photos/lovestory-09-small.webp"
+  },
+  "lovestory-10": {
+    "width": 1056,
+    "height": 704,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-10.webp",
+    "small": "/assets/photos/lovestory-10-small.webp"
+  },
+  "lovestory-11": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-11.webp",
+    "small": "/assets/photos/lovestory-11-small.webp"
+  },
+  "lovestory-12": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-12.webp",
+    "small": "/assets/photos/lovestory-12-small.webp"
+  },
+  "lovestory-13": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-13.webp",
+    "small": "/assets/photos/lovestory-13-small.webp"
+  },
+  "lovestory-14": {
+    "width": 1080,
+    "height": 719,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-14.webp",
+    "small": "/assets/photos/lovestory-14-small.webp"
+  },
+  "lovestory-15": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-15.webp",
+    "small": "/assets/photos/lovestory-15-small.webp"
+  },
+  "lovestory-16": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-16.webp",
+    "small": "/assets/photos/lovestory-16-small.webp"
+  },
+  "lovestory-17": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-17.webp",
+    "small": "/assets/photos/lovestory-17-small.webp"
+  },
+  "lovestory-18": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-18.webp",
+    "small": "/assets/photos/lovestory-18-small.webp"
+  },
+  "lovestory-19": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-19.webp",
+    "small": "/assets/photos/lovestory-19-small.webp"
+  },
+  "lovestory-20": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-20.webp",
+    "small": "/assets/photos/lovestory-20-small.webp"
+  },
+  "lovestory-21": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-21.webp",
+    "small": "/assets/photos/lovestory-21-small.webp"
+  },
+  "lovestory-22": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-22.webp",
+    "small": "/assets/photos/lovestory-22-small.webp"
+  },
+  "lovestory-23": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-23.webp",
+    "small": "/assets/photos/lovestory-23-small.webp"
+  },
+  "lovestory-24": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-24.webp",
+    "small": "/assets/photos/lovestory-24-small.webp"
+  },
+  "lovestory-25": {
+    "width": 1080,
+    "height": 720,
+    "smallWidth": 800,
+    "src": "/assets/photos/lovestory-25.webp",
+    "small": "/assets/photos/lovestory-25-small.webp"
+  },
+  "me-01": {
+    "width": 1080,
+    "height": 1913,
+    "smallWidth": 565,
+    "src": "/assets/photos/me-01.webp",
+    "small": "/assets/photos/me-01-small.webp"
+  },
+  "me-02": {
+    "width": 1080,
+    "height": 1080,
+    "smallWidth": 800,
+    "src": "/assets/photos/me-02.webp",
+    "small": "/assets/photos/me-02-small.webp"
+  },
+  "portrait-01": {
+    "width": 1080,
+    "height": 1919,
+    "smallWidth": 563,
+    "src": "/assets/photos/portrait-01.webp",
+    "small": "/assets/photos/portrait-01-small.webp"
+  },
+  "portrait-02": {
+    "width": 1376,
+    "height": 1834,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-02.webp",
+    "small": "/assets/photos/portrait-02-small.webp"
+  },
+  "portrait-03": {
+    "width": 1440,
+    "height": 1919,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-03.webp",
+    "small": "/assets/photos/portrait-03-small.webp"
+  },
+  "portrait-04": {
+    "width": 1440,
+    "height": 1919,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-04.webp",
+    "small": "/assets/photos/portrait-04-small.webp"
+  },
+  "portrait-05": {
+    "width": 1440,
+    "height": 1440,
+    "smallWidth": 800,
+    "src": "/assets/photos/portrait-05.webp",
+    "small": "/assets/photos/portrait-05-small.webp"
+  },
+  "portrait-06": {
+    "width": 1440,
+    "height": 1799,
+    "smallWidth": 800,
+    "src": "/assets/photos/portrait-06.webp",
+    "small": "/assets/photos/portrait-06-small.webp"
+  },
+  "portrait-07": {
+    "width": 1440,
+    "height": 960,
+    "smallWidth": 800,
+    "src": "/assets/photos/portrait-07.webp",
+    "small": "/assets/photos/portrait-07-small.webp"
+  },
+  "portrait-08": {
+    "width": 1440,
+    "height": 960,
+    "smallWidth": 800,
+    "src": "/assets/photos/portrait-08.webp",
+    "small": "/assets/photos/portrait-08-small.webp"
+  },
+  "portrait-09": {
+    "width": 1440,
+    "height": 960,
+    "smallWidth": 800,
+    "src": "/assets/photos/portrait-09.webp",
+    "small": "/assets/photos/portrait-09-small.webp"
+  },
+  "portrait-10": {
+    "width": 1440,
+    "height": 1800,
+    "smallWidth": 800,
+    "src": "/assets/photos/portrait-10.webp",
+    "small": "/assets/photos/portrait-10-small.webp"
+  },
+  "portrait-11": {
+    "width": 1440,
+    "height": 1799,
+    "smallWidth": 800,
+    "src": "/assets/photos/portrait-11.webp",
+    "small": "/assets/photos/portrait-11-small.webp"
+  },
+  "portrait-12": {
+    "width": 1440,
+    "height": 960,
+    "smallWidth": 800,
+    "src": "/assets/photos/portrait-12.webp",
+    "small": "/assets/photos/portrait-12-small.webp"
+  },
+  "portrait-13": {
+    "width": 1440,
+    "height": 960,
+    "smallWidth": 800,
+    "src": "/assets/photos/portrait-13.webp",
+    "small": "/assets/photos/portrait-13-small.webp"
+  },
+  "portrait-14": {
+    "width": 1440,
+    "height": 960,
+    "smallWidth": 800,
+    "src": "/assets/photos/portrait-14.webp",
+    "small": "/assets/photos/portrait-14-small.webp"
+  },
+  "portrait-15": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-15.webp",
+    "small": "/assets/photos/portrait-15-small.webp"
+  },
+  "portrait-16": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-16.webp",
+    "small": "/assets/photos/portrait-16-small.webp"
+  },
+  "portrait-17": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-17.webp",
+    "small": "/assets/photos/portrait-17-small.webp"
+  },
+  "portrait-18": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-18.webp",
+    "small": "/assets/photos/portrait-18-small.webp"
+  },
+  "portrait-19": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-19.webp",
+    "small": "/assets/photos/portrait-19-small.webp"
+  },
+  "portrait-20": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-20.webp",
+    "small": "/assets/photos/portrait-20-small.webp"
+  },
+  "portrait-21": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-21.webp",
+    "small": "/assets/photos/portrait-21-small.webp"
+  },
+  "portrait-22": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-22.webp",
+    "small": "/assets/photos/portrait-22-small.webp"
+  },
+  "portrait-23": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-23.webp",
+    "small": "/assets/photos/portrait-23-small.webp"
+  },
+  "portrait-24": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-24.webp",
+    "small": "/assets/photos/portrait-24-small.webp"
+  },
+  "portrait-25": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/portrait-25.webp",
+    "small": "/assets/photos/portrait-25-small.webp"
+  },
+  "wedding-01": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-01.webp",
+    "small": "/assets/photos/wedding-01-small.webp"
+  },
+  "wedding-02": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-02.webp",
+    "small": "/assets/photos/wedding-02-small.webp"
+  },
+  "wedding-03": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-03.webp",
+    "small": "/assets/photos/wedding-03-small.webp"
+  },
+  "wedding-04": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-04.webp",
+    "small": "/assets/photos/wedding-04-small.webp"
+  },
+  "wedding-05": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-05.webp",
+    "small": "/assets/photos/wedding-05-small.webp"
+  },
+  "wedding-06": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-06.webp",
+    "small": "/assets/photos/wedding-06-small.webp"
+  },
+  "wedding-07": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-07.webp",
+    "small": "/assets/photos/wedding-07-small.webp"
+  },
+  "wedding-08": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-08.webp",
+    "small": "/assets/photos/wedding-08-small.webp"
+  },
+  "wedding-09": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-09.webp",
+    "small": "/assets/photos/wedding-09-small.webp"
+  },
+  "wedding-10": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-10.webp",
+    "small": "/assets/photos/wedding-10-small.webp"
+  },
+  "wedding-11": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-11.webp",
+    "small": "/assets/photos/wedding-11-small.webp"
+  },
+  "wedding-12": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-12.webp",
+    "small": "/assets/photos/wedding-12-small.webp"
+  },
+  "wedding-13": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-13.webp",
+    "small": "/assets/photos/wedding-13-small.webp"
+  },
+  "wedding-14": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-14.webp",
+    "small": "/assets/photos/wedding-14-small.webp"
+  },
+  "wedding-15": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-15.webp",
+    "small": "/assets/photos/wedding-15-small.webp"
+  },
+  "wedding-16": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-16.webp",
+    "small": "/assets/photos/wedding-16-small.webp"
+  },
+  "wedding-17": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-17.webp",
+    "small": "/assets/photos/wedding-17-small.webp"
+  },
+  "wedding-18": {
+    "width": 1080,
+    "height": 1440,
+    "smallWidth": 750,
+    "src": "/assets/photos/wedding-18.webp",
+    "small": "/assets/photos/wedding-18-small.webp"
+  }
+}

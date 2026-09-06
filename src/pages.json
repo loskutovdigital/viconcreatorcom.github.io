@@ -1,0 +1,226 @@
+[
+  {
+    "key": "home",
+    "lang": "en",
+    "url": "https://example.invalid/",
+    "path": "index.html",
+    "title": "Viktoriia Loskutova | Cinematic Photographer Netherlands"
+  },
+  {
+    "key": "portfolio",
+    "lang": "en",
+    "url": "https://example.invalid/photography/",
+    "path": "photography/index.html",
+    "title": "Photography portfolio | Viktoriia Loskutova · Vicon Creator"
+  },
+  {
+    "key": "weddings",
+    "lang": "en",
+    "url": "https://example.invalid/wedding-photographer-netherlands/",
+    "path": "wedding-photographer-netherlands/index.html",
+    "title": "Wedding photographer in the Netherlands | Vicon Creator"
+  },
+  {
+    "key": "couples",
+    "lang": "en",
+    "url": "https://example.invalid/couples-love-story-photographer/",
+    "path": "couples-love-story-photographer/index.html",
+    "title": "Couples & love story photographer Netherlands | Vicon Creator"
+  },
+  {
+    "key": "portraits",
+    "lang": "en",
+    "url": "https://example.invalid/portrait-photographer-netherlands/",
+    "path": "portrait-photographer-netherlands/index.html",
+    "title": "Portrait photographer Netherlands | Cinematic portraits"
+  },
+  {
+    "key": "maternity",
+    "lang": "en",
+    "url": "https://example.invalid/maternity-photographer-netherlands/",
+    "path": "maternity-photographer-netherlands/index.html",
+    "title": "Maternity photographer Netherlands | Vicon Creator"
+  },
+  {
+    "key": "family",
+    "lang": "en",
+    "url": "https://example.invalid/family-children-photographer/",
+    "path": "family-children-photographer/index.html",
+    "title": "Family & children photographer Netherlands | Vicon Creator"
+  },
+  {
+    "key": "events",
+    "lang": "en",
+    "url": "https://example.invalid/event-photographer-netherlands/",
+    "path": "event-photographer-netherlands/index.html",
+    "title": "Event photographer Netherlands | Amsterdam & The Hague"
+  },
+  {
+    "key": "about",
+    "lang": "en",
+    "url": "https://example.invalid/about-viktoriia-loskutova/",
+    "path": "about-viktoriia-loskutova/index.html",
+    "title": "About Viktoriia Loskutova | Vicon Creator photographer"
+  },
+  {
+    "key": "prices",
+    "lang": "en",
+    "url": "https://example.invalid/photography-prices/",
+    "path": "photography-prices/index.html",
+    "title": "Photography prices Netherlands | Weddings & sessions"
+  },
+  {
+    "key": "contact",
+    "lang": "en",
+    "url": "https://example.invalid/contact/",
+    "path": "contact/index.html",
+    "title": "Contact Viktoriia Loskutova | Book a photography session"
+  },
+  {
+    "key": "locations",
+    "lang": "en",
+    "url": "https://example.invalid/photographer-netherlands/",
+    "path": "photographer-netherlands/index.html",
+    "title": "Photographer Netherlands | Amsterdam, The Hague & more"
+  },
+  {
+    "key": "amsterdam",
+    "lang": "en",
+    "url": "https://example.invalid/wedding-photographer-amsterdam/",
+    "path": "wedding-photographer-amsterdam/index.html",
+    "title": "Wedding photographer Amsterdam | Viktoriia Loskutova"
+  },
+  {
+    "key": "the-hague",
+    "lang": "en",
+    "url": "https://example.invalid/couples-photographer-the-hague/",
+    "path": "couples-photographer-the-hague/index.html",
+    "title": "Love story & couples photographer The Hague | Vicon Creator"
+  },
+  {
+    "key": "belgium",
+    "lang": "en",
+    "url": "https://example.invalid/wedding-photographer-belgium/",
+    "path": "wedding-photographer-belgium/index.html",
+    "title": "Wedding photographer Belgium | Vicon Creator · Netherlands based"
+  },
+  {
+    "key": "privacy",
+    "lang": "en",
+    "url": "https://example.invalid/privacy-business/",
+    "path": "privacy-business/index.html",
+    "title": "Privacy & business details | Vicon Creator"
+  },
+  {
+    "key": "home",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/",
+    "path": "nl/index.html",
+    "title": "Viktoriia Loskutova | Filmische fotograaf Nederland"
+  },
+  {
+    "key": "portfolio",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotografie/",
+    "path": "nl/fotografie/index.html",
+    "title": "Fotografieportfolio | Viktoriia Loskutova · Vicon Creator"
+  },
+  {
+    "key": "weddings",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/trouwfotograaf-nederland/",
+    "path": "nl/trouwfotograaf-nederland/index.html",
+    "title": "Trouwfotograaf Nederland | Vicon Creator"
+  },
+  {
+    "key": "couples",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/loveshoot-fotograaf/",
+    "path": "nl/loveshoot-fotograaf/index.html",
+    "title": "Loveshoot fotograaf Nederland | Vicon Creator"
+  },
+  {
+    "key": "portraits",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/portretfotograaf/",
+    "path": "nl/portretfotograaf/index.html",
+    "title": "Portretfotograaf Nederland | Filmische portretten"
+  },
+  {
+    "key": "maternity",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/zwangerschapsfotografie/",
+    "path": "nl/zwangerschapsfotografie/index.html",
+    "title": "Zwangerschapsfotografie Nederland | Vicon Creator"
+  },
+  {
+    "key": "family",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/gezinsfotografie-kinderen/",
+    "path": "nl/gezinsfotografie-kinderen/index.html",
+    "title": "Gezinsfotografie & kinderfotograaf Nederland | Vicon Creator"
+  },
+  {
+    "key": "events",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/evenementenfotograaf/",
+    "path": "nl/evenementenfotograaf/index.html",
+    "title": "Evenementenfotograaf Nederland | Amsterdam & Den Haag"
+  },
+  {
+    "key": "about",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/over-viktoriia-loskutova/",
+    "path": "nl/over-viktoriia-loskutova/index.html",
+    "title": "Over Viktoriia Loskutova | Fotograaf Vicon Creator"
+  },
+  {
+    "key": "prices",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/tarieven-fotografie/",
+    "path": "nl/tarieven-fotografie/index.html",
+    "title": "Fotografie tarieven Nederland | Bruiloften & fotoshoots"
+  },
+  {
+    "key": "contact",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/contact/",
+    "path": "nl/contact/index.html",
+    "title": "Contact Viktoriia Loskutova | Fotoshoot aanvragen"
+  },
+  {
+    "key": "locations",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotograaf-nederland/",
+    "path": "nl/fotograaf-nederland/index.html",
+    "title": "Fotograaf Nederland | Amsterdam, Den Haag & meer"
+  },
+  {
+    "key": "amsterdam",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/trouwfotograaf-amsterdam/",
+    "path": "nl/trouwfotograaf-amsterdam/index.html",
+    "title": "Trouwfotograaf Amsterdam | Viktoriia Loskutova"
+  },
+  {
+    "key": "the-hague",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/loveshoot-den-haag/",
+    "path": "nl/loveshoot-den-haag/index.html",
+    "title": "Loveshoot Den Haag | Koppelfotograaf Vicon Creator"
+  },
+  {
+    "key": "belgium",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/trouwfotograaf-belgie/",
+    "path": "nl/trouwfotograaf-belgie/index.html",
+    "title": "Trouwfotograaf België | Vicon Creator · Vanuit Nederland"
+  },
+  {
+    "key": "privacy",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/privacy-bedrijfsgegevens/",
+    "path": "nl/privacy-bedrijfsgegevens/index.html",
+    "title": "Privacy & bedrijfsgegevens | Vicon Creator"
+  }
+]
