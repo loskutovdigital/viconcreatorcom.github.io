@@ -1,2 +1,2 @@
-// Shared, public form endpoint. Delivery credentials stay in the existing backend.
-export const endpoint = "https://script.google.com/macros/s/AKfycbypvTHQOyjn1vlDPnT6WifcA5Aa0ZlNuEpu0VL8D3wWC70p5MRx7Rp96VPFO6fJ-6sCbg/exec";
+// Vicon Creator's dedicated public endpoint. All delivery credentials stay in Apps Script.
+export const endpoint = "https://script.google.com/macros/s/AKfycbwc5TnVAN_dNMsA_DZc3wloOLpOZ67w-x3vCXCXZFK7YiGyV2R_zDRDrtTnqh7RibDD/exec";

@@ -558,5 +558,124 @@
     "smallWidth": 750,
     "src": "/assets/photos/wedding-18.webp",
     "small": "/assets/photos/wedding-18-small.webp"
+  },
+  "motherhood-01": {
+    "width": 1206,
+    "height": 1522,
+    "smallWidth": 792,
+    "src": "/assets/photos/motherhood-01.webp",
+    "small": "/assets/photos/motherhood-01-small.webp"
+  },
+  "motherhood-02": {
+    "width": 1206,
+    "height": 1497,
+    "smallWidth": 806,
+    "src": "/assets/photos/motherhood-02.webp",
+    "small": "/assets/photos/motherhood-02-small.webp"
+  },
+  "motherhood-03": {
+    "width": 969,
+    "height": 1334,
+    "smallWidth": 726,
+    "src": "/assets/photos/motherhood-03.webp",
+    "small": "/assets/photos/motherhood-03-small.webp"
+  },
+  "motherhood-04": {
+    "width": 1179,
+    "height": 1457,
+    "smallWidth": 809,
+    "src": "/assets/photos/motherhood-04.webp",
+    "small": "/assets/photos/motherhood-04-small.webp"
+  },
+  "motherhood-05": {
+    "width": 1206,
+    "height": 1333,
+    "smallWidth": 905,
+    "src": "/assets/photos/motherhood-05.webp",
+    "small": "/assets/photos/motherhood-05-small.webp"
+  },
+  "motherhood-06": {
+    "width": 1206,
+    "height": 1354,
+    "smallWidth": 891,
+    "src": "/assets/photos/motherhood-06.webp",
+    "small": "/assets/photos/motherhood-06-small.webp"
+  },
+  "motherhood-07": {
+    "width": 1206,
+    "height": 1494,
+    "smallWidth": 807,
+    "src": "/assets/photos/motherhood-07.webp",
+    "small": "/assets/photos/motherhood-07-small.webp"
+  },
+  "motherhood-08": {
+    "width": 1206,
+    "height": 1072,
+    "smallWidth": 1000,
+    "src": "/assets/photos/motherhood-08.webp",
+    "small": "/assets/photos/motherhood-08-small.webp"
+  },
+  "motherhood-09": {
+    "width": 1200,
+    "height": 900,
+    "smallWidth": 1000,
+    "src": "/assets/photos/motherhood-09.webp",
+    "small": "/assets/photos/motherhood-09-small.webp"
+  },
+  "motherhood-10": {
+    "width": 1206,
+    "height": 1336,
+    "smallWidth": 903,
+    "src": "/assets/photos/motherhood-10.webp",
+    "small": "/assets/photos/motherhood-10-small.webp"
+  },
+  "event-08": {
+    "width": 1281,
+    "height": 1920,
+    "smallWidth": 667,
+    "src": "/assets/photos/event-08.webp",
+    "small": "/assets/photos/event-08-small.webp"
+  },
+  "event-09": {
+    "width": 1920,
+    "height": 1280,
+    "smallWidth": 1000,
+    "src": "/assets/photos/event-09.webp",
+    "small": "/assets/photos/event-09-small.webp"
+  },
+  "event-10": {
+    "width": 1920,
+    "height": 1281,
+    "smallWidth": 1000,
+    "src": "/assets/photos/event-10.webp",
+    "small": "/assets/photos/event-10-small.webp"
+  },
+  "event-11": {
+    "width": 1281,
+    "height": 1920,
+    "smallWidth": 667,
+    "src": "/assets/photos/event-11.webp",
+    "small": "/assets/photos/event-11-small.webp"
+  },
+  "event-12": {
+    "width": 1920,
+    "height": 1281,
+    "smallWidth": 1000,
+    "src": "/assets/photos/event-12.webp",
+    "small": "/assets/photos/event-12-small.webp"
+  },
+  "event-13": {
+    "width": 1920,
+    "height": 1281,
+    "smallWidth": 1000,
+    "src": "/assets/photos/event-13.webp",
+    "small": "/assets/photos/event-13-small.webp"
+  },
+  "event-14": {
+    "width": 1281,
+    "height": 1920,
+    "smallWidth": 667,
+    "src": "/assets/photos/event-14.webp",
+    "small": "/assets/photos/event-14-small.webp"
   }
 }

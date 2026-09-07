@@ -28,7 +28,12 @@ COPY = {
 
 def booking_dialog(lang):
  t=COPY[lang];i=0 if lang=='en' else 1;e=escape
- options=''.join(f'<option value="{k}">{e(v["label"][i])}</option>' for k,v in SERVICES.items())
+ options=''
+ for k,v in SERVICES.items():
+  label=('Maternity / pregnancy','Zwangerschap')[i] if k=='maternity' else v['label'][i]
+  options+=f'<option value="{k}">{e(label)}</option>'
+  if k=='maternity':
+   options+=f'<option value="postpartum">{e(("Postpartum / mother & baby","Kraamreportage / moeder & baby")[i])}</option>'
  methods=[('telegram','Telegram'),('whatsapp','WhatsApp'),('email','Email' if lang=='en' else 'E-mail'),('phone','Phone call' if lang=='en' else 'Telefoon'),('instagram','Instagram')]
  choices=''.join(f'<option value="{k}">{label}</option>' for k,label in methods)
  return f'''<dialog id="booking-dialog" class="booking-dialog" aria-labelledby="booking-title" aria-describedby="booking-intro">

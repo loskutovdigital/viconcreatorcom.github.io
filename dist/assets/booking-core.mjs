@@ -1,4 +1,4 @@
-export const sessions = Object.freeze({weddings:'Weddings',couples:'Love story / couples',portraits:'Portraits',maternity:'Maternity',family:'Children / family',events:'Events',other:'Other / personal idea'});
+export const sessions = Object.freeze({weddings:'Weddings',couples:'Love story / couples',portraits:'Portraits',maternity:'Maternity / pregnancy',postpartum:'Postpartum / mother & baby',family:'Children / family',events:'Events',other:'Other / personal idea'});
 export const methods = Object.freeze({telegram:'Telegram',whatsapp:'WhatsApp',email:'Email',phone:'Phone',instagram:'Instagram'});
 export function localDate(date = new Date()) {
   return `${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;

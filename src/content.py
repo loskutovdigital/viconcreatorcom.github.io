@@ -1,4 +1,4 @@
-ORIGIN = "https://example.invalid"
+ORIGIN = 'https://example.invalid'
 INSTAGRAM = 'https://www.instagram.com/vicon.creator/'
 NAME = 'Viktoriia Loskutova'
 
@@ -250,3 +250,26 @@ SOURCES = [
  ('Amsterdamian — portrait sessions','https://amsterdamian.com/photo-sessions/portraits-solo-couple-family/','Reference: €260 / solo session and €300 / couples/family.'),
  ('Saskia Photography — event prices','https://www.saskia-photography.com/photographer-price-amsterdam','Reference: €195 / hour, 2-hour minimum.'),
 ]
+
+# SEO expansion uses descriptive headings and keeps existing URLs stable.
+from seo_content import EXTRA_ROUTES
+ROUTES.update(EXTRA_ROUTES)
+DESCRIPTIVE_HEADINGS = {
+ 'weddings':('Wedding photography\nin the Netherlands','Trouwfotografie\nin Nederland'),
+ 'couples':('Love stories\n& couples photography','Loveshoots\n& koppelfotografie'),
+ 'portraits':('Cinematic\nportrait photography','Filmische\nportretfotografie'),
+ 'maternity':('Maternity\nphotography','Een persoonlijke\nzwangerschapsshoot'),
+ 'family':('Family & children\nphotography','Gezinsfotografie\n& kinderportretten'),
+ 'events':('Event\nphotography','Evenementen\nfotografie'),
+}
+for key, heading in DESCRIPTIVE_HEADINGS.items():
+ SERVICES[key]['heading'] = heading
+SERVICES['maternity']['title'] = ('Maternity photographer Netherlands | Pregnancy photoshoot','Zwangerschapsshoot Nederland | Vicon Creator')
+SERVICES['family']['title'] = ('Family photographer Netherlands | Children & family photos','Familiefotograaf Nederland | Gezinsshoot & kinderen')
+SERVICES['events']['heading'] = ('Event\nphotography','Evenementenfotografie')
+# The enquiry form is now the primary booking route; Instagram remains an alternative.
+f=SERVICES['weddings']['faq'][-1]
+SERVICES['weddings']['faq'][-1]=(f[0], 'Use the enquiry form to share your date, venue or city and plans. You can choose how you would like a reply. A booking is confirmed only after scope, price and terms have been agreed.', f[2], 'Deel via het aanvraagformulier jullie datum, locatie of stad en plannen. Je kiest zelf hoe je een reactie wilt ontvangen. De boeking is pas definitief nadat inhoud, prijs en voorwaarden zijn afgesproken.')
+
+from motherhood_content import apply_updates
+apply_updates(ROUTES, SERVICES, ALTS)

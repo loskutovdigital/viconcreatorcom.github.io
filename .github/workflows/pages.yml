@@ -23,7 +23,10 @@ jobs:
       - name: Build with the public site URL
         env:
           SITE_URL: ${{ steps.pages.outputs.base_url }}
+          GOOGLE_SITE_VERIFICATION: ${{ vars.GOOGLE_SITE_VERIFICATION }}
         run: python3 src/generate.py --origin "$SITE_URL" --index --portable
+      - name: Check pages, links and SEO metadata
+        run: python3 src/audit.py --public
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

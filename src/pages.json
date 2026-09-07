@@ -39,14 +39,14 @@
     "lang": "en",
     "url": "https://example.invalid/maternity-photographer-netherlands/",
     "path": "maternity-photographer-netherlands/index.html",
-    "title": "Maternity photographer Netherlands | Vicon Creator"
+    "title": "Maternity & motherhood photographer Netherlands | Vicon Creator"
   },
   {
     "key": "family",
     "lang": "en",
     "url": "https://example.invalid/family-children-photographer/",
     "path": "family-children-photographer/index.html",
-    "title": "Family & children photographer Netherlands | Vicon Creator"
+    "title": "Family photographer Netherlands | Children & family photos"
   },
   {
     "key": "events",
@@ -54,6 +54,13 @@
     "url": "https://example.invalid/event-photographer-netherlands/",
     "path": "event-photographer-netherlands/index.html",
     "title": "Event photographer Netherlands | Amsterdam & The Hague"
+  },
+  {
+    "key": "postpartum",
+    "lang": "en",
+    "url": "https://example.invalid/postpartum-newborn-photographer-netherlands/",
+    "path": "postpartum-newborn-photographer-netherlands/index.html",
+    "title": "Postpartum & newborn photographer Netherlands | Vicon Creator"
   },
   {
     "key": "about",
@@ -112,6 +119,83 @@
     "title": "Privacy & business details | Vicon Creator"
   },
   {
+    "key": "city-amsterdam",
+    "lang": "en",
+    "url": "https://example.invalid/photographer-amsterdam/",
+    "path": "photographer-amsterdam/index.html",
+    "title": "Photographer Amsterdam | Couples, portraits & family | Vicon Creator"
+  },
+  {
+    "key": "city-hague",
+    "lang": "en",
+    "url": "https://example.invalid/photographer-the-hague/",
+    "path": "photographer-the-hague/index.html",
+    "title": "Photographer The Hague | Maternity, couples & portraits | Vicon Creator"
+  },
+  {
+    "key": "city-rotterdam",
+    "lang": "en",
+    "url": "https://example.invalid/photographer-rotterdam/",
+    "path": "photographer-rotterdam/index.html",
+    "title": "Photographer Rotterdam | Portraits & event photography | Vicon Creator"
+  },
+  {
+    "key": "city-utrecht",
+    "lang": "en",
+    "url": "https://example.invalid/photographer-utrecht/",
+    "path": "photographer-utrecht/index.html",
+    "title": "Photographer Utrecht | Family, couples & portraits | Vicon Creator"
+  },
+  {
+    "key": "guides",
+    "lang": "en",
+    "url": "https://example.invalid/photoshoot-guides/",
+    "path": "photoshoot-guides/index.html",
+    "title": "Photoshoot guides | Planning, outfits & weather"
+  },
+  {
+    "key": "guide-wedding",
+    "lang": "en",
+    "url": "https://example.invalid/photoshoot-guides/wedding-photography-timeline/",
+    "path": "photoshoot-guides/wedding-photography-timeline/index.html",
+    "title": "How many hours of wedding photography do you need? | Vicon Creator"
+  },
+  {
+    "key": "guide-outfits",
+    "lang": "en",
+    "url": "https://example.invalid/photoshoot-guides/what-to-wear/",
+    "path": "photoshoot-guides/what-to-wear/index.html",
+    "title": "What to wear for a couples, portrait or family photoshoot | Vicon Creator"
+  },
+  {
+    "key": "guide-rain",
+    "lang": "en",
+    "url": "https://example.invalid/photoshoot-guides/rainy-day-photoshoot/",
+    "path": "photoshoot-guides/rainy-day-photoshoot/index.html",
+    "title": "What if it rains on your photoshoot day? | Vicon Creator"
+  },
+  {
+    "key": "guide-maternity",
+    "lang": "en",
+    "url": "https://example.invalid/photoshoot-guides/planning-maternity-photos/",
+    "path": "photoshoot-guides/planning-maternity-photos/index.html",
+    "title": "Planning maternity photos: timing, comfort and location | Vicon Creator"
+  },
+  {
+    "key": "guide-family",
+    "lang": "en",
+    "url": "https://example.invalid/photoshoot-guides/family-session-with-children/",
+    "path": "photoshoot-guides/family-session-with-children/index.html",
+    "title": "A family photoshoot with children: a practical plan | Vicon Creator"
+  },
+  {
+    "key": "guide-events",
+    "lang": "en",
+    "url": "https://example.invalid/photoshoot-guides/event-photography-brief/",
+    "path": "photoshoot-guides/event-photography-brief/index.html",
+    "title": "What to include in an event photography brief | Vicon Creator"
+  },
+  {
     "key": "home",
     "lang": "nl",
     "url": "https://example.invalid/nl/",
@@ -151,14 +235,14 @@
     "lang": "nl",
     "url": "https://example.invalid/nl/zwangerschapsfotografie/",
     "path": "nl/zwangerschapsfotografie/index.html",
-    "title": "Zwangerschapsfotografie Nederland | Vicon Creator"
+    "title": "Zwangerschap & moederschap fotografie | Vicon Creator"
   },
   {
     "key": "family",
     "lang": "nl",
     "url": "https://example.invalid/nl/gezinsfotografie-kinderen/",
     "path": "nl/gezinsfotografie-kinderen/index.html",
-    "title": "Gezinsfotografie & kinderfotograaf Nederland | Vicon Creator"
+    "title": "Familiefotograaf Nederland | Gezinsshoot & kinderen"
   },
   {
     "key": "events",
@@ -166,6 +250,13 @@
     "url": "https://example.invalid/nl/evenementenfotograaf/",
     "path": "nl/evenementenfotograaf/index.html",
     "title": "Evenementenfotograaf Nederland | Amsterdam & Den Haag"
+  },
+  {
+    "key": "postpartum",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/kraamreportage-newborn-fotografie/",
+    "path": "nl/kraamreportage-newborn-fotografie/index.html",
+    "title": "Kraamreportage & newborn fotografie | Vicon Creator"
   },
   {
     "key": "about",
@@ -222,5 +313,82 @@
     "url": "https://example.invalid/nl/privacy-bedrijfsgegevens/",
     "path": "nl/privacy-bedrijfsgegevens/index.html",
     "title": "Privacy & bedrijfsgegevens | Vicon Creator"
+  },
+  {
+    "key": "city-amsterdam",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotograaf-amsterdam/",
+    "path": "nl/fotograaf-amsterdam/index.html",
+    "title": "Fotograaf Amsterdam | Loveshoot, portret & gezin | Vicon Creator"
+  },
+  {
+    "key": "city-hague",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotograaf-den-haag/",
+    "path": "nl/fotograaf-den-haag/index.html",
+    "title": "Fotograaf Den Haag | Zwangerschap, loveshoot & portret | Vicon Creator"
+  },
+  {
+    "key": "city-rotterdam",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotograaf-rotterdam/",
+    "path": "nl/fotograaf-rotterdam/index.html",
+    "title": "Fotograaf Rotterdam | Portretten & evenementen | Vicon Creator"
+  },
+  {
+    "key": "city-utrecht",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotograaf-utrecht/",
+    "path": "nl/fotograaf-utrecht/index.html",
+    "title": "Fotograaf Utrecht | Gezin, loveshoot & portretten | Vicon Creator"
+  },
+  {
+    "key": "guides",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotoshoot-tips/",
+    "path": "nl/fotoshoot-tips/index.html",
+    "title": "Fotoshoot tips | Planning, kleding & weer"
+  },
+  {
+    "key": "guide-wedding",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotoshoot-tips/planning-trouwfotografie/",
+    "path": "nl/fotoshoot-tips/planning-trouwfotografie/index.html",
+    "title": "Hoeveel uur trouwfotografie heb je nodig? | Vicon Creator"
+  },
+  {
+    "key": "guide-outfits",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotoshoot-tips/kleding/",
+    "path": "nl/fotoshoot-tips/kleding/index.html",
+    "title": "Kleding voor een loveshoot, portret of gezinsshoot | Vicon Creator"
+  },
+  {
+    "key": "guide-rain",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotoshoot-tips/regen/",
+    "path": "nl/fotoshoot-tips/regen/index.html",
+    "title": "Wat als het regent op de dag van je fotoshoot? | Vicon Creator"
+  },
+  {
+    "key": "guide-maternity",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotoshoot-tips/zwangerschapsshoot-plannen/",
+    "path": "nl/fotoshoot-tips/zwangerschapsshoot-plannen/index.html",
+    "title": "Zwangerschapsshoot plannen: moment, comfort en locatie | Vicon Creator"
+  },
+  {
+    "key": "guide-family",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotoshoot-tips/gezinsshoot-met-kinderen/",
+    "path": "nl/fotoshoot-tips/gezinsshoot-met-kinderen/index.html",
+    "title": "Een gezinsshoot met kinderen: praktisch voorbereiden | Vicon Creator"
+  },
+  {
+    "key": "guide-events",
+    "lang": "nl",
+    "url": "https://example.invalid/nl/fotoshoot-tips/briefing-evenementenfotografie/",
+    "path": "nl/fotoshoot-tips/briefing-evenementenfotografie/index.html",
+    "title": "Wat zet je in een briefing voor evenementenfotografie? | Vicon Creator"
   }
 ]
