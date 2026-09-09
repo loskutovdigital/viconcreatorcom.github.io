@@ -1,6 +1,7 @@
 from pathlib import Path
 from html import escape
 import json, argparse, shutil, os, re
+import xml.etree.ElementTree as ET
 from urllib.parse import urlsplit
 from html.parser import HTMLParser
 from seo_content import CITIES, GUIDES
@@ -13,11 +14,15 @@ ROOT = Path(__file__).resolve().parent.parent
 parser = argparse.ArgumentParser(description='Build the Vicon Creator static website.')
 parser.add_argument('--origin', default=ORIGIN, help='Full public site base URL, including a repository path if needed.')
 parser.add_argument('--output', type=Path, default=ROOT/'dist')
-parser.add_argument('--index', action='store_true', help='Enable indexing for a public deployment.')
+indexing = parser.add_mutually_exclusive_group()
+indexing.add_argument('--index', dest='index', action='store_true', help='Enable public indexing (the default).')
+indexing.add_argument('--no-index', dest='index', action='store_false', help='Disable indexing for an intentional private preview.')
+parser.set_defaults(index=True)
 parser.add_argument('--portable', action='store_true', help='Use relative navigation and asset URLs.')
 args = parser.parse_args()
 ORIGIN = args.origin.rstrip('/')
-if args.index and (urlsplit(ORIGIN).scheme != 'https' or not urlsplit(ORIGIN).netloc or 'example.' in urlsplit(ORIGIN).hostname or (urlsplit(ORIGIN).hostname or '').endswith('.chatgpt.site')):
+origin_parts = urlsplit(ORIGIN)
+if args.index and (origin_parts.scheme != 'https' or not origin_parts.hostname or 'example.' in origin_parts.hostname or origin_parts.hostname.endswith('.chatgpt.site')):
  parser.error('Public indexing requires the real HTTPS GitHub Pages URL or custom domain.')
 DIST = args.output.resolve()
 DIST.mkdir(parents=True, exist_ok=True)
@@ -325,11 +330,19 @@ for lang in LANGS:
  for key in GUIDES:guide_page(key,lang)
 
 (DIST/'favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#20271f"/><text x="32" y="48" text-anchor="middle" font-family="Georgia,serif" font-size="50" fill="#f2efe8">v</text></svg>')
-(DIST/'robots.txt').write_text(('User-agent: *\nAllow: /\n' if PUBLIC_INDEXING else 'User-agent: *\nDisallow: /\n')+'\nSitemap: '+ORIGIN+'/sitemap.xml\n')
+(DIST/'robots.txt').write_text(('User-agent: *\nAllow: /\n' if PUBLIC_INDEXING else 'User-agent: *\nDisallow: /\n')+'\nSitemap: '+ORIGIN+'/sitemap.xml\nSitemap: '+ORIGIN+'/sitemap-images.xml\n')
+ET.register_namespace('', 'http://www.sitemaps.org/schemas/sitemap/0.9')
+ET.register_namespace('xhtml', 'http://www.w3.org/1999/xhtml')
+ET.register_namespace('image', 'http://www.google.com/schemas/sitemap-image/1.1')
+def write_xml(path, text):
+ tree = ET.ElementTree(ET.fromstring(text))
+ ET.indent(tree, space='  ')
+ tree.write(path, encoding='utf-8', xml_declaration=True)
+ with path.open('a') as output: output.write('\n')
 sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'
 for p in PAGES:
- sitemap+='<url><loc>'+e(p['url'])+'</loc>'+''.join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{e(ORIGIN+url(p["key"],l))}"/>' for l in LANGS)+'</url>'
-(DIST/'sitemap.xml').write_text(sitemap+'</urlset>')
+ sitemap+='<url><loc>'+e(p['url'])+'</loc>'+''.join(f'<xhtml:link rel="alternate" hreflang="{l}" href="{e(ORIGIN+url(p["key"],l))}"/>' for l in LANGS)+f'<xhtml:link rel="alternate" hreflang="x-default" href="{e(ORIGIN+url(p["key"],"en"))}"/></url>'
+write_xml(DIST/'sitemap.xml', sitemap+'</urlset>')
 # Image discovery reflects the images actually visible on each landing page.
 class PageImages(HTMLParser):
  def __init__(self): super().__init__(); self.images=set()
@@ -342,8 +355,11 @@ for p in PAGES:
  reader=PageImages();reader.feed((DIST/p['path']).read_text())
  if reader.images:
   image_map+='<url><loc>'+e(p['url'])+'</loc>'+''.join('<image:image><image:loc>'+e(im)+'</image:loc></image:image>' for im in sorted(reader.images))+'</url>'
-(DIST/'sitemap-images.xml').write_text(image_map+'</urlset>')
-with (DIST/'robots.txt').open('a') as robot_file:robot_file.write('Sitemap: '+ORIGIN+'/sitemap-images.xml\n')
+write_xml(DIST/'sitemap-images.xml', image_map+'</urlset>')
+if PUBLIC_INDEXING and not origin_parts.path and not origin_parts.hostname.endswith('.github.io'):
+ (DIST/'CNAME').write_text(origin_parts.hostname+'\n')
+else:
+ (DIST/'CNAME').unlink(missing_ok=True)
 
 (DIST/'404.html').write_text(f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Page not found | Vicon Creator</title><link rel="stylesheet" href="/assets/fonts/fonts.css"><link rel="stylesheet" href="/assets/site.css">{analytics_head()}</head><body>{header("home","en")}<main id="main" class="empty-page wrap"><span class="eyebrow">404 · Vicon Creator</span><h1>A different<br><em>way back.</em></h1><p>This page could not be found.<br>Deze pagina bestaat niet.</p>{link("home","Return to the photographs","en","button")}</main>{footer("en")}{booking_dialog("en")}<script src="/assets/site.js" defer></script><script type="module" src="/assets/booking.mjs"></script></body></html>')
 (DIST/'_headers').write_text('/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n/assets/*\n  Cache-Control: public, max-age=86400\n')

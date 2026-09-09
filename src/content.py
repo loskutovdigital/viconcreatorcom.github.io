@@ -1,4 +1,4 @@
-ORIGIN = 'https://example.invalid'
+ORIGIN = 'https://viconcreator.com'
 INSTAGRAM = 'https://www.instagram.com/vicon.creator/'
 NAME = 'Viktoriia Loskutova'
 
